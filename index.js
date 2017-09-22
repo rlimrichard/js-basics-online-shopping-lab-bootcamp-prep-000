@@ -38,6 +38,7 @@ function viewCart() {
       }
       msg += "."
   }
+  console.log(msg)
 
 }
 
