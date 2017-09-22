@@ -45,6 +45,7 @@ function viewCart() {
       msg += "."
   }
   console.log(msg)
+  return msg;
 
 }
 
