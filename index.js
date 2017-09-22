@@ -55,7 +55,7 @@ function viewCart() {
           {
                 msg += ` ${key} at $${cart[i][key]},`
           }
-          if (i == cart.length-2 ){
+          if (i === cart.length-2 ){
               msg += " and"
             }
       }
