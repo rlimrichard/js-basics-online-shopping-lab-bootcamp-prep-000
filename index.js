@@ -30,7 +30,7 @@ function viewCart() {
 
       for (var i=0; i<cart.length ; i++)
       {
-          for (key in cart[i])
+          for (var key in cart[i])
           {
                 msg += ` ${key} at ${cart[i][key]}`
           }
