@@ -55,7 +55,7 @@ function viewCart() {
           {
                 msg += ` ${key} at $${cart[i][key]}`
           }
-          if (i < car.length-1 )
+          if (i < cart.length-1 )
           {
               msg += ","
           }
