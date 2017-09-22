@@ -35,12 +35,12 @@ function viewCart() {
                 msg += ` ${key} at $${cart[i][key]}`
           }
 
-          if (i<cart.length-2){
+          if (i < cart.length-2){
             msg += ","
-        }
-        else if (i == cart.length-2 ){
-            msg += " and"
-        }
+          }
+          if (i == cart.length-2 ){
+              msg += " and"
+            }
       }
       msg += "."
   }
