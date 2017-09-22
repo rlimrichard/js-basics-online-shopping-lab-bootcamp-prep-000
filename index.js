@@ -32,7 +32,7 @@ function viewCart() {
       {
           for (var key in cart[i])
           {
-                msg += ` ${key} at ${cart[i][key]}`
+                msg += ` ${key} at $${cart[i][key]}`
           }
 
           if (i<cart.length-3){
