@@ -26,9 +26,15 @@ function viewCart() {
   }
   else{
       var msg = "In your cart, you have"
+
+            
       for (var i=0; i<cart.length ; i++)
       {
-          msg += ` ${Object.keys(cart[i])[0]} at ${Object.values(cart[i])[0]}`
+          for (key in cart[i])
+          {
+                msg += ` ${key} at ${cart[i][key]}`
+          }
+
           if (i<cart.length-3){
             msg += ","
         }
